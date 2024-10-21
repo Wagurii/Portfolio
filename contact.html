@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Contacts</title>
+</head>
+<body>
+         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+               <i class="fas fa-bars"></i>
+             </label>
+             <span class="logo">&lt;/&nbsp;Bert&nbsp;&gt;</span>
+               <ul>
+                <li><a href="home.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="certificate.html">Certificate</a></li>
+                 <li><a class="active5" href="contact.html">Contact</a></li>
+               </ul>             
+       </nav>
+
+        <div class="contacts">
+            <h1>Contacts</h1>
+        </div>
+<div class="socials">
+ <div class="links">
+    <li><a href="https://github.com/Wagurii" target="_blank">
+        <img src="data:image/png;base64,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"/> 
+      </a></li>
+      <span>Github</span>
+</div>
+   
+<div class="links">
+    <li><a target="_blank" href="https://www.tiktok.com/@akali._03?lang=en"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA/JJREFUaEPtml/oTVkUxz8oD6IIM5M/TyJRMob8KR78eSBFkhGFkEGGQkhRovxLI6NGNDSFmcgMDzM1wzwMksn/aEgeNMrI3wcjMpH9nc7l5/qdc9Y+v32Pe9y7X+7D3Xut9dlr/1lr7dOMGmvNaoyXOvCH7vG6h3P0cAfgXoq+LcDSkDa9Tw9bgA8BE2sJ+CHQvpaAxfopcDEUdLUvaXEuBr6qJeCbQC/gaQjoInhYnMFO66IAvwAGABea6uWiAIvzATAaONMU6CIBi/M5MBPYlxW6aMAlzhPAVuAw8NIHvqjAJca/I/BjwGULeNGByxm3u73+ZRJ4HdiyLAL1sSQPvqrqHi6fsWpf0o9dlNXGw83bgEXVuoeV9t1PgdkPfAd8C3QxgOe+pDtHgX7v6LcboJz2ErCuzGDLHhbw1MjLy4HpKeC5eXholMJ9FuOFf4BOGYC/B6aUjZOuccAIF3j0LfvvazfBCyu5pHsAG12CPj5lud0G5P2GzcfDceK1v/sDnwCSdx34tVLAWmIbDPtKXSoFbFT/pluWU1pjtFcWeGgLuaQ91L7b1Re4eZSpTPbUWljg1cAaT1h1LyRwd1cjvgK0rBXg08DADLCF9PAMYI8R9giwG/gLuAF8HF0bCj5CX0tGk/xP6TuR4UkKngATgN+MVoS4h42q/IB7AlcNklVVPGvoV+pStcBznXe/SQFZ7wpsKz1g1dUC3Fho6anm7e6We/gH5+HPE7Q8Azq6Z81/PS2pWuBHrlDWNgHmoDugJnnCVq2HFVn9B+g3ri0DNn8owOK4Gy3ZOKYvXOq3MwNwV1dUV5k1qe1yicecDLJjh1j2sE5ondRxba0rhivk9G3DgD9SBikj2+QrOKm/Bfg4oKQ7rv0JDMpg1LSofJM0VHm2AplgzQKsZTU7ReNY97r3s6dVvwPDU8boXdgSA5hVW4BHAkdTJN6K4mxlRZZm8a7kWOyz6HvdxyKwRfR5UTsDtDym+DmpKZfeC0huUtNSTisdecH6zKCKY5YKh95wR8U8XOsc0CE0xui5fiEewMtnxOJhjRkMnPKYThXTlB3p2ukTFdrSVkhD8RXxro+H1VcfiSkbyqNVxLu+wK2Acyl3cojJWNVI0T6E3P9lWJd0SaFeEvSRWOtgFrwtaAcwr0KyMwFrkA6fH6P0LqRtwVPBxozz9XBJhir92tNDAhDrhVDLWDeB1/caWXRnBZYu3aOKo1dk2BolW39yycl8QCWkXFpTgEsGqnyrjEbR00dGq68BS4BfjP2DdQsB3NAYRUazoi9gS49nqoQoxVTYedI9ox4Azgcj8BQUGthTff7d68D5z3m+Gusezne+89f2Cg80tj1BuqXnAAAAAElFTkSuQmCC"/>
+    </a></li>
+    <span>Tiktok</span>
+</div>
+
+    <div class="links">
+        <li><a target="_blank" href="https://www.facebook.com/bitong.pradilla"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAABNJJREFUaEPtmluoVkUUx38mWCFCZUgJRnZP08iwBxHJRCx8iK6CFxAxFamUonzowUuSkWEYpNgFooeKoiALKhQtKgSxRHxIxUQKqwdNIzMzpeYP+8vjOWf2Xmv27O+gngUf5+Gs23/Wnpl1mT6cZ9TnPMNLL+BzPeK9Ec4c4duB0cCNwJXFb3DxV6Z+AX7u8Hc3sBXYntmP/9U1EeEhwOPAbOCSRMcPhUVZB7xSLEiimq5iOQHfBiwCHgT6ZvLwH+BtYAWg6NemHICvAFYDD9f2Jq7gX+AN4CngSB07dQFPB9YAA+o44ZDVpz4D+NQhcwZrHcDaX/NTDdeUWxrkl6ToSAF8KfAJMCbFYEaZD4FpwHGPTi/gQcBX4SC5wWOkQd4twMSwt/+02vAA1j6VgeFW5W3i2xT8mgSctNjzANZnPNmiNJHnR0C/U8AFwNXhZNadbqGXgCcsjFbAjwEvWxQ6eP4CXgc+BjZE5C4GRoaf9qsytDK6G/i8yr4F8LXA3ipFzv+/CTwZMrLfjHKyLz/K6ABwE3C0jMkCWHtkvNExC9szwHMWxg48FsBi11e4oA5g7Vnt3VykT06fnpesgKVXX8K+mIGqCH8LjPJ6F+HXYXQdsD9B3w/ANUa5tWUJURlglXUq1XLRe8CURGWeCCsRUX7/e3e2ygDnTh3nAK9VAL4ImApc1YlP5aYyPCtFbZUB1gnqMVLljLZGWWEvkJ8BN1cpMvx/M3CXJ8K5P+fKwwTIfRvoDu+SZ8cirLrzBcNKeljU4vk1ItC/6v70GCp4dZV+0VkuBlgHzEMJRspEygDrkFF/KycpsVllBbwTuCWn9aJxF4twE4BfDYs41wr4GKA9kJPaHeFuD67YJ92qWM5mwHuK9vAZGGKA1TTLTe2OsIqILr22GOC/Q4LfLwGxTsWchYZcGBd0fpngy4nQ3r3QuocPJzbRmwD8SKiFdQB5SYnTQCtgT7LeUaeShwlezyr4XyxqZ69a1x7emOh4ExFObS0pTb3HGmGVWPO8SwpEc9gEXS0RRer6BHlNQxZaAc8qRhteO7kjrBmVDtCUWZWqrnesgDXe3OVFWxQAOfewelTfJ/ghEVVfP1kBi0/TOm/DXYOuHREH7y9p2l1WdCY7i2rcemsC4G3FXLqLaFk9vDhwJ81vIg62M/FQj1q9ahfgoWXNsIRVbxdgzZTVwz7oBSx+nbp3JoDrTqRdgNW0fyDmc1XXMjWt6ynAqgG051XedktVgCX0fvGMoW6g2xFhNR4fLXPUAlgjUl0NOknrUNOANYgbVjU6tQAWyPsi14ZnAZoGPDbMir+pcsgKWHo0t9EUMZWaBPw0sNLimAew9Kku1UGWQk0Bdk00vIDVmP+uGFZ7QTcBWBmVPmXl2ybyApZSdRg/Au4wWTjNlBvw+jC31rOpPzx+pABu6dfTQM1wrJQTsF78JQ0K6gAWUM+EIgdgNeZmAh9YV7kzX13A0qec+3nD08O6gHVLLAs3hV7jJVMOwC3jI0Kh/myYEN4b8SYFsAYCbxV69cy4NuUE3HLm8uKzU8dBL2xb5AGsftS7IXPSlaPXPtmoCcAdnVMDQY/G9FBcNWrs1Y7S1uXA18WM2Pq6x70QTQN2O9S0QC/gple4p/X3RrinI9C0/f8AWkvaPVkWNQQAAAAASUVORK5CYII="/>
+        </a></li>
+        <span>Facebook</span>
+    </div>
+
+     <div class="links">
+        <li><a target="_blank" href="mailto:robertpradilla03@gmail.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAypJREFUaEPtmt2rTUEYxn/n2rd8Rdy48G8gxAXXSpFSlHyLO7mUfEsdpUQp10rIR/4NF1KUEvl2zXpqppa9Z2atffbMrLXPmbdOnd1ee975zfO+z6yvKeZYTM0xXgrwbFe8KFwUnmUrUEp6lgk6hFMUHliSndXn88B6YFHP1f8BvAXOAY99cw0pfBa40HNI3/ROA5ddX/qANwGvJhRW0/4LbANeDDL4gF8CmycYWFN/CuxoC/wNWDzhwB+BNW2BVRKD8RuY39NF8M1tqIJ9Je0CXgfcBzb2DPo1sBd475jXWMD2x4eAi5ULLugY/BdwBpg283CJFAVY46/tWG2r6ofaoicFtnkOmP1uYSa1fwKngDuOfFmAlXc1cA/Ykhhae+o+QO7riujA6lm5oS/2V6efVxOcguqU8QRwN5Bbu4d6unEXGsWl1S9yQ/WPL6S2ym1ow5+h+k8AtY1PVQ2rXUO7h3wlKrAGU9ncrpTWueqfAIQW5hqwZIagOvE5bkB8Q8yrzgsuAQfBezNyLJeuJ26j9kpThqOqLVXVHp8CixVStf6zaMB2UJXvSU//2GP2ADeqv6UNan8FjgIPAsfJR66YMm9TPNGBlVT9JfccujKpzWi56e1dnlk+MhCfAxTaBbQbyCfaRhJgm1wueqxB7d3ATWCZ+dEX4AjwsEHV66bM24La45ICW7XlqupDX1i19b2ODamq/lfbjKJq0h72QWmbkNrfR5XEHK9LU6kqtx8nkitcn5xcVm4bUtsFI1XVHnL5cSMrsJ2sXFfuKxcOhVxcbi5XjxWdAGvy6lP1q9zYFXJv9ar6O2Z0Bmwh5MaHa2pL1VuA3DtFdA5cV1v/p1C1vnC9AE6hpG/MAjzK5WFOZWLlKgoXhU0tue4PxSqznOOUki4lXUo6Z8fFz9W6h3VptyJ+/qwjimHVYEZfDz/P8CQhNf0zYHtbYN0wE/SkhrbVrYDeZPgvQi+16Par88WQCVgFPZrRg4ChaHpPa4N5WqfScD3K6BP7O3OrWCK9aX351CeCFHNpUjhFzk7HLMCdLn+G5EXhDIvcaYqicKfLnyF5UTjDInea4h/s7o09B49g1AAAAABJRU5ErkJggg=="/>
+        </a></li>
+        <span>Email</span>
+     </div>
+     
+    
+  </div>
+     
+    
+</body>
+</html>

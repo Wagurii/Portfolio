@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins";
+  background: radial-gradient(
+    circle at -4% -12.9%,
+    rgb(74, 98, 110) 0.3%,
+    rgb(30, 33, 48) 90.2%
+  );
+  color: white;
+}
+/*------- HOME STYLEEEEEEEEEEEEEEEEEEEEEEEEEEEE --------*/
+nav {
+  background: radial-gradient(
+    circle at -4% -12.9%,
+    rgb(74, 98, 110) 0.3%,
+    rgb(30, 33, 48) 90.2%
+  );
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.4);
+  border: 1px solid rgba(227, 228, 237, 0.1);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.logo {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 800;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav a.active1,
+a:hover {
+  background: #474849;
+  transition: 0.5s;
+}
+nav a.active2,
+a:hover {
+  background: #474849;
+  transition: 0.5s;
+}
+nav a.active3,
+a:hover {
+  background: #474849;
+  transition: 0.5s;
+}
+nav a.active4,
+a:hover {
+  background: #474849;
+  transition: 0.5s;
+}
+nav a.active5,
+a:hover {
+  background: #474849;
+  transition: 0.5s;
+}
+nav a:active {
+  background: rgb(150, 179, 231);
+  color: #000000;
+  transition: 0.1s;
+}
+.checkbtn {
+  font-size: 22px;
+  color: white;
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.salmon {
+  border-radius: 150px;
+  border: 2px solid black;
+  margin: 80px 0px;
+  transition: 0.5s;
+}
+.salmon:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.home-text-content > h3,
+.frontend-text {
+  color: #f5dd7b;
+}
+.home-text-content {
+  margin-right: 100px;
+}
+/*---------- END OF HOME STYLEEEEEEEE -------*/
+
+/*--------- CERTIFICATE STYLEEEEEEEEEEE ------*/
+.certificates-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+.certificate-title {
+  margin: 90px 20px;
+  color: black;
+}
+.certificate-image {
+  border: 1px solid rgba(227, 228, 237, 0.1);
+  border-radius: 8px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+  transition: 0.5s;
+}
+.certificate-image img {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+}
+.certificate-image:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.description-cert {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+/*--------- END OF CERTIFICATE STYLEEEEEEEEEEE ------*/
+
+/*--------- ABOUT STYLEEEEEEEEEEE ------*/
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutme {
+  max-width: 900px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 10px rgba(227, 228, 237, 0.4) inset;
+  margin-top: 100px;
+}
+.personal-info {
+  max-width: 900px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 10px rgba(227, 228, 237, 0.4) inset;
+}
+.aboutme > h2,
+.gallerytitle {
+  margin: 25px 15px;
+  text-decoration: underline black;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+  color: black;
+}
+.gallerytitle {
+  margin: 90px 20px;
+  color: black;
+}
+.aboutimg img {
+  margin: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 1s;
+}
+.aboutimg img:hover {
+  scale: 1.1;
+}
+.about-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px;
+  text-wrap: wrap;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personal-info > h2,
+.personal-info h1 {
+  margin: 15px 15px;
+  text-decoration: underline black;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+.personal-text {
+  margin: 15px;
+  text-wrap: wrap;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.language {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.language p {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+/*--------- END OF ABOUT STYLEEEEEEEEEEE ------*/
+
+/*--------- CONTACTS STYLEEEEEEEEEEE ------*/
+.contacts h1 {
+  text-underline-offset: 15px;
+  text-decoration: underline;
+  margin: 90px 20px;
+  margin-bottom: 30px;
+  color: black;
+}
+.socials img:hover {
+  scale: 1.2;
+ transition: .5s;
+}
+.socials li {
+  list-style: none;
+  margin: 25px 10px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.links span {
+  margin-top: -20px;
+}
+
+/*--------- END OF CONTACTS STYLEEEEEEEEEEE ------*/
+
+/*--------- GALLERY STYLEEEEEEEEEEE ------*/
+.gallery .images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px;
+  padding: 10px;
+}
+.images > a img {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 4px solid black;
+  text-align: center;
+  font-size: 30px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery img:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+/*--------- END OF GALLERY STYLEEEEEEEEEEE ------*/
+
+/*--extra--*/
+.checkbtn {
+  font-size: 22px;
+  color: white;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+@media (max-width: 895px) {
+  .checkbtn {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(
+      circle at -4% -12.9%,
+      rgb(74, 98, 110) 0.3%,
+      rgb(30, 33, 48) 90.2%
+    );
+    top: 80px;
+    left: -110%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+@media (max-width: 806px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 720px) {
+  .home-content {
+    flex-direction: column-reverse;
+    font-size: 20px;
+  }
+  .certificate-image:hover {
+    scale: 1.1;
+  }
+  .gallery .images {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+}
+@media (max-width: 478px) {
+  .logo {
+    padding: 0 50px;
+  }
+  .home-text-content {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  nav ul {
+    width: 90%;
+  }
+  .about-text {
+    flex-direction: column;
+    font-size: 10px;
+  }
+}
+.checkbtn {
+  line-height: 0;
+  margin: 29px;
+}
+.gallery .images {
+  margin-left: 100px;
+}
+@media (max-width: 420px) {
+  .logo {
+    padding: 0 30px;
+  }
+  .aboutme,
+  .personal-info {
+    border: 1px solid black;
+  }
+  nav ul {
+    left: -120%;
+  }
+}
