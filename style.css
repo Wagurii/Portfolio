@@ -13,6 +13,7 @@ body {
     rgb(30, 33, 48) 90.2%
   );
   color: white;
+overflow: hidden;
 }
 /*------- HOME STYLEEEEEEEEEEEEEEEEEEEEEEEEEEEE --------*/
 nav {
